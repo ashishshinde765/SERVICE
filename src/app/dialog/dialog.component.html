@@ -1,0 +1,17 @@
+<h1>Products</h1>
+
+<form [formGroup]="Lists">
+    <mat-form-field appearance="fill">
+        <mat-label>Name</mat-label>
+        <input formControlName="name" matInput placeholder="Placeholder">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Price</mat-label>
+        <input formControlName="price" matInput placeholder="Placeholder">
+    </mat-form-field>
+</form>
+
+<div class="MT_BUTTON" [align]="'end'">
+    <button mat-raised-button color="accent" (click)="SaveToBucket()">Save</button>
+    <button mat-raised-button color="accent" mat-dialog-close="">Close</button>
+</div>

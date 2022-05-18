@@ -1,0 +1,44 @@
+{
+  "ProductLists": [
+    {
+      "name": "Apple",
+      "price": "1000",
+      "id": 1
+    },
+    {
+      "name": "Orange",
+      "price": "1200",
+      "id": 2
+    },
+    {
+      "name": "sfs",
+      "price": "244",
+      "id": 3
+    },
+    {
+      "name": "Apple",
+      "price": "123",
+      "id": 4
+    },
+    {
+      "name": "Orange",
+      "price": "321",
+      "id": 5
+    },
+    {
+      "name": "Orange 4",
+      "price": "543",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
